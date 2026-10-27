@@ -1,0 +1,313 @@
+{
+  "geradoEm": "27/10/2026 14:47",
+  "estados": {
+    "AC": {
+      "urnas": 2270,
+      "votosNosLogs": 453654,
+      "comparecimentoOficial": 453654,
+      "confereComTse": true,
+      "votosSemHorario": 0,
+      "votosDepoisDas17h": 158,
+      "votosDepoisDas18h": 0,
+      "urnasComVotoDepoisDas17h": 141,
+      "perdaMaxLula": 158
+    },
+    "AL": {
+      "urnas": 7101,
+      "votosNosLogs": 1951632,
+      "comparecimentoOficial": 1951632,
+      "confereComTse": true,
+      "votosSemHorario": 0,
+      "votosDepoisDas17h": 646,
+      "votosDepoisDas18h": 0,
+      "urnasComVotoDepoisDas17h": 552,
+      "perdaMaxLula": 646
+    },
+    "AM": {
+      "urnas": 8157,
+      "votosNosLogs": 2192059,
+      "comparecimentoOficial": 2192059,
+      "confereComTse": true,
+      "votosSemHorario": 0,
+      "votosDepoisDas17h": 1004,
+      "votosDepoisDas18h": 0,
+      "urnasComVotoDepoisDas17h": 879,
+      "perdaMaxLula": 1004
+    },
+    "AP": {
+      "urnas": 1914,
+      "votosNosLogs": 429975,
+      "comparecimentoOficial": 429975,
+      "confereComTse": true,
+      "votosSemHorario": 0,
+      "votosDepoisDas17h": 142,
+      "votosDepoisDas18h": 0,
+      "urnasComVotoDepoisDas17h": 131,
+      "perdaMaxLula": 142
+    },
+    "BA": {
+      "urnas": 35476,
+      "votosNosLogs": 9422033,
+      "comparecimentoOficial": 9422047,
+      "confereComTse": true,
+      "votosSemHorario": 14,
+      "votosDepoisDas17h": 4204,
+      "votosDepoisDas18h": 287,
+      "urnasComVotoDepoisDas17h": 3450,
+      "perdaMaxLula": 4204
+    },
+    "CE": {
+      "urnas": 23765,
+      "votosNosLogs": 6024843,
+      "comparecimentoOficial": 6024843,
+      "confereComTse": true,
+      "votosSemHorario": 0,
+      "votosDepoisDas17h": 1074,
+      "votosDepoisDas18h": 1,
+      "urnasComVotoDepoisDas17h": 960,
+      "perdaMaxLula": 1074
+    },
+    "DF": {
+      "urnas": 6969,
+      "votosNosLogs": 1868280,
+      "comparecimentoOficial": 1868280,
+      "confereComTse": true,
+      "votosSemHorario": 0,
+      "votosDepoisDas17h": 980,
+      "votosDepoisDas18h": 2,
+      "urnasComVotoDepoisDas17h": 876,
+      "perdaMaxLula": 980
+    },
+    "ES": {
+      "urnas": 9844,
+      "votosNosLogs": 2409214,
+      "comparecimentoOficial": 2409214,
+      "confereComTse": true,
+      "votosSemHorario": 0,
+      "votosDepoisDas17h": 294,
+      "votosDepoisDas18h": 0,
+      "urnasComVotoDepoisDas17h": 269,
+      "perdaMaxLula": 294
+    },
+    "GO": {
+      "urnas": 15686,
+      "votosNosLogs": 4047280,
+      "comparecimentoOficial": 4047280,
+      "confereComTse": true,
+      "votosSemHorario": 0,
+      "votosDepoisDas17h": 734,
+      "votosDepoisDas18h": 0,
+      "urnasComVotoDepoisDas17h": 643,
+      "perdaMaxLula": 734
+    },
+    "MA": {
+      "urnas": 18093,
+      "votosNosLogs": 4127735,
+      "comparecimentoOficial": 4127771,
+      "confereComTse": true,
+      "votosSemHorario": 36,
+      "votosDepoisDas17h": 957,
+      "votosDepoisDas18h": 10,
+      "urnasComVotoDepoisDas17h": 829,
+      "perdaMaxLula": 957
+    },
+    "MG": {
+      "urnas": 52062,
+      "votosNosLogs": 13044203,
+      "comparecimentoOficial": 13044203,
+      "confereComTse": true,
+      "votosSemHorario": 0,
+      "votosDepoisDas17h": 2253,
+      "votosDepoisDas18h": 0,
+      "urnasComVotoDepoisDas17h": 2084,
+      "perdaMaxLula": 2253
+    },
+    "MS": {
+      "urnas": 7106,
+      "votosNosLogs": 1594460,
+      "comparecimentoOficial": 1594460,
+      "confereComTse": true,
+      "votosSemHorario": 0,
+      "votosDepoisDas17h": 422,
+      "votosDepoisDas18h": 0,
+      "urnasComVotoDepoisDas17h": 388,
+      "perdaMaxLula": 422
+    },
+    "MT": {
+      "urnas": 8287,
+      "votosNosLogs": 2085334,
+      "comparecimentoOficial": 2085334,
+      "confereComTse": true,
+      "votosSemHorario": 0,
+      "votosDepoisDas17h": 909,
+      "votosDepoisDas18h": 1,
+      "urnasComVotoDepoisDas17h": 797,
+      "perdaMaxLula": 909
+    },
+    "PA": {
+      "urnas": 20827,
+      "votosNosLogs": 4989573,
+      "comparecimentoOficial": 4989573,
+      "confereComTse": true,
+      "votosSemHorario": 0,
+      "votosDepoisDas17h": 1308,
+      "votosDepoisDas18h": 4,
+      "urnasComVotoDepoisDas17h": 1173,
+      "perdaMaxLula": 1308
+    },
+    "PB": {
+      "urnas": 10712,
+      "votosNosLogs": 2743559,
+      "comparecimentoOficial": 2743560,
+      "confereComTse": true,
+      "votosSemHorario": 1,
+      "votosDepoisDas17h": 472,
+      "votosDepoisDas18h": 41,
+      "urnasComVotoDepoisDas17h": 416,
+      "perdaMaxLula": 472
+    },
+    "PE": {
+      "urnas": 21418,
+      "votosNosLogs": 6126467,
+      "comparecimentoOficial": 6126467,
+      "confereComTse": true,
+      "votosSemHorario": 0,
+      "votosDepoisDas17h": 1636,
+      "votosDepoisDas18h": 113,
+      "urnasComVotoDepoisDas17h": 1436,
+      "perdaMaxLula": 1636
+    },
+    "PI": {
+      "urnas": 10225,
+      "votosNosLogs": 2239829,
+      "comparecimentoOficial": 2239830,
+      "confereComTse": true,
+      "votosSemHorario": 1,
+      "votosDepoisDas17h": 338,
+      "votosDepoisDas18h": 1,
+      "urnasComVotoDepoisDas17h": 299,
+      "perdaMaxLula": 338
+    },
+    "PR": {
+      "urnas": 27142,
+      "votosNosLogs": 7059339,
+      "comparecimentoOficial": 7059339,
+      "confereComTse": true,
+      "votosSemHorario": 0,
+      "votosDepoisDas17h": 926,
+      "votosDepoisDas18h": 0,
+      "urnasComVotoDepoisDas17h": 877,
+      "perdaMaxLula": 926
+    },
+    "RJ": {
+      "urnas": 37675,
+      "votosNosLogs": 10077449,
+      "comparecimentoOficial": 10077449,
+      "confereComTse": true,
+      "votosSemHorario": 0,
+      "votosDepoisDas17h": 4150,
+      "votosDepoisDas18h": 883,
+      "urnasComVotoDepoisDas17h": 3431,
+      "perdaMaxLula": 4150
+    },
+    "RN": {
+      "urnas": 8115,
+      "votosNosLogs": 2232823,
+      "comparecimentoOficial": 2232823,
+      "confereComTse": true,
+      "votosSemHorario": 0,
+      "votosDepoisDas17h": 413,
+      "votosDepoisDas18h": 2,
+      "urnasComVotoDepoisDas17h": 372,
+      "perdaMaxLula": 413
+    },
+    "RO": {
+      "urnas": 4698,
+      "votosNosLogs": 988489,
+      "comparecimentoOficial": 988489,
+      "confereComTse": true,
+      "votosSemHorario": 0,
+      "votosDepoisDas17h": 555,
+      "votosDepoisDas18h": 0,
+      "urnasComVotoDepoisDas17h": 496,
+      "perdaMaxLula": 555
+    },
+    "RR": {
+      "urnas": 1519,
+      "votosNosLogs": 308597,
+      "comparecimentoOficial": 308597,
+      "confereComTse": true,
+      "votosSemHorario": 0,
+      "votosDepoisDas17h": 145,
+      "votosDepoisDas18h": 0,
+      "urnasComVotoDepoisDas17h": 135,
+      "perdaMaxLula": 145
+    },
+    "RS": {
+      "urnas": 27547,
+      "votosNosLogs": 6889636,
+      "comparecimentoOficial": 6889638,
+      "confereComTse": true,
+      "votosSemHorario": 2,
+      "votosDepoisDas17h": 831,
+      "votosDepoisDas18h": 0,
+      "urnasComVotoDepoisDas17h": 749,
+      "perdaMaxLula": 831
+    },
+    "SC": {
+      "urnas": 17326,
+      "votosNosLogs": 4762303,
+      "comparecimentoOficial": 4762303,
+      "confereComTse": true,
+      "votosSemHorario": 0,
+      "votosDepoisDas17h": 463,
+      "votosDepoisDas18h": 0,
+      "urnasComVotoDepoisDas17h": 433,
+      "perdaMaxLula": 463
+    },
+    "SE": {
+      "urnas": 5923,
+      "votosNosLogs": 1466659,
+      "comparecimentoOficial": 1466659,
+      "confereComTse": true,
+      "votosSemHorario": 0,
+      "votosDepoisDas17h": 287,
+      "votosDepoisDas18h": 7,
+      "urnasComVotoDepoisDas17h": 264,
+      "perdaMaxLula": 287
+    },
+    "SP": {
+      "urnas": 103656,
+      "votosNosLogs": 27364121,
+      "comparecimentoOficial": 27364389,
+      "confereComTse": true,
+      "votosSemHorario": 268,
+      "votosDepoisDas17h": 9128,
+      "votosDepoisDas18h": 641,
+      "urnasComVotoDepoisDas17h": 7575,
+      "perdaMaxLula": 8995
+    },
+    "TO": {
+      "urnas": 4384,
+      "votosNosLogs": 954763,
+      "comparecimentoOficial": 954763,
+      "confereComTse": true,
+      "votosSemHorario": 0,
+      "votosDepoisDas17h": 223,
+      "votosDepoisDas18h": 0,
+      "urnasComVotoDepoisDas17h": 203,
+      "perdaMaxLula": 223
+    },
+    "ZZ": {
+      "urnas": 1311,
+      "votosNosLogs": 380612,
+      "comparecimentoOficial": 381443,
+      "confereComTse": true,
+      "votosSemHorario": 831,
+      "votosDepoisDas17h": 1248,
+      "votosDepoisDas18h": 0,
+      "urnasComVotoDepoisDas17h": 252,
+      "perdaMaxLula": 862
+    }
+  }
+}

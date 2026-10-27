@@ -1,0 +1,21 @@
+# Confere lint, testes e build em pull requests e em branches fora da main
+# (na main, o workflow "Publicar" faz as mesmas checagens antes de publicar).
+name: CI
+on:
+  push:
+    branches-ignore: [main]
+  pull_request:
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+      - run: npm ci
+      - run: npm run lint
+      - run: npm run format:check
+      - run: npm test
+      - run: npm run build

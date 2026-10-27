@@ -1,0 +1,30 @@
+{
+  "fonte": "https://resultados.tse.jus.br/oficial/ele2026/6258/dados/br/br-c0001-e006258-u.json",
+  "geradoEm": "25/10/2026 23:27:02",
+  "brasil": {
+    "totalSecoes": 499248,
+    "secoesTotalizadas": 499248,
+    "eleitorado": 158745502,
+    "comparecimento": 128236074,
+    "abstencao": 30509005,
+    "votosValidos": 124082273,
+    "brancos": 1430496,
+    "nulos": 2723305,
+    "lula": 64256232,
+    "flavio": 59826041,
+    "secoesNaoInformadas": 41,
+    "eleitoresSecoesNaoInformadas": 423
+  },
+  "exterior": {
+    "totalSecoes": 1351,
+    "secoesTotalizadas": 1351,
+    "eleitorado": 916683,
+    "comparecimento": 381443,
+    "abstencao": 534817,
+    "votosValidos": 371651,
+    "brancos": 4675,
+    "nulos": 5117,
+    "lula": 200154,
+    "flavio": 171497
+  }
+}

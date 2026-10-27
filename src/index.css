@@ -1,0 +1,110 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/*
+ * Tokens de tema (RGB em triplas para aceitar opacidade no Tailwind).
+ * Cores de dados validadas com a skill dataviz (contraste e daltonismo) contra cada superfície:
+ *   candidatos — claro: #dc2626 / #2563eb · escuro: #ef4444 / #3b82f6 (superfície #121626)
+ *   rosca      — claro: #7c3aed #0d9488 #d97706 #db2777 · escuro: #8b5cf6 #0d9488 #d97706 #db2777
+ *   sequencial (mapa e "quanto", do menor para o maior valor; ordinal, um tom só):
+ *                claro: #ad98f6 #9073ee #7650df #5b2fc0 #3d1a85 (mais = mais escuro)
+ *                escuro: #5b33b8 #7650d8 #9474ec #b49cf6 #d6c9fc (mais = mais claro)
+ */
+@layer base {
+  :root {
+    --fundo: 244 245 251;
+    --superficie: 255 255 255;
+    --superficie-2: 240 242 248;
+    --linha: 226 229 238;
+    --tinta: 17 20 39;
+    --tinta-2: 64 70 94;
+    --tinta-3: 104 110 135;
+    --lula: 220 38 38;
+    --flavio: 37 99 235;
+    --cat-1: 124 58 237;
+    --cat-2: 13 148 136;
+    --cat-3: 217 119 6;
+    --cat-4: 219 39 119;
+    --destaque: 4 120 87;
+    --brilho-1: 124 58 237;
+    --brilho-2: 16 185 129;
+    --brilho-3: 37 99 235;
+    --seq-1: 173 152 246;
+    --seq-2: 144 115 238;
+    --seq-3: 118 80 223;
+    --seq-4: 91 47 192;
+    --seq-5: 61 26 133;
+  }
+  .dark {
+    --fundo: 10 13 24;
+    --superficie: 18 22 38;
+    --superficie-2: 26 31 52;
+    --linha: 41 47 72;
+    --tinta: 240 242 250;
+    --tinta-2: 196 201 222;
+    --tinta-3: 143 150 178;
+    --lula: 239 68 68;
+    --flavio: 59 130 246;
+    --cat-1: 139 92 246;
+    --cat-2: 13 148 136;
+    --cat-3: 217 119 6;
+    --cat-4: 219 39 119;
+    --destaque: 52 211 153;
+    --brilho-1: 109 40 217;
+    --brilho-2: 5 150 105;
+    --brilho-3: 29 78 216;
+    --seq-1: 91 51 184;
+    --seq-2: 118 80 216;
+    --seq-3: 148 116 236;
+    --seq-4: 180 156 246;
+    --seq-5: 214 201 252;
+  }
+
+  html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 5rem;
+  }
+  body {
+    @apply bg-fundo text-tinta font-sans antialiased min-h-screen;
+    font-feature-settings: 'tnum' 1;
+  }
+  ::selection {
+    background: rgb(var(--cat-1) / 0.3);
+  }
+  :focus-visible {
+    outline: 2px solid rgb(var(--cat-1));
+    outline-offset: 2px;
+  }
+}
+
+@layer components {
+  /* Cartão de vidro: base de todas as seções */
+  .cartao {
+    @apply rounded-3xl border border-linha/70 bg-superficie/80 shadow-[0_8px_30px_-12px_rgb(0_0_0/0.18)] backdrop-blur-xl;
+  }
+  .rotulo {
+    @apply text-xs font-semibold uppercase tracking-wider text-tinta-3;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-thumb {
+  background: rgb(var(--linha));
+  border-radius: 9999px;
+}
